@@ -20,18 +20,18 @@ deploy:
 #  ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
 
 # Site
-title: huaxu-touhou-club
+title: 华胥东方社
 subtitle: ''
 description: ''
 keywords:
 author: Huaxu Touhou Club members
-language: en
+language: zh
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://huaxu-touhou-club.github.io
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
