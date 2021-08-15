@@ -1,19 +1,36 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
+deploy:
+  type: git
+  repo: https://github.com/huaxu-touhou-club/huaxu-touhou-club.github.io
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
+# You can use this:
+# deploy:
+ # type: git
+ # repo: <repository url>
+ # branch: [branch]
+ # token: ''
+ # message: 'Site Updated
+ # name: Ravenclaw-OIer
+ # email: yzshangs@126.com
+ # extend_dirs: [extend directory]
+ # ignore_hidden: false # default is true
+#  ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
 
 # Site
-title: Hexo
+title: huaxu-touhou-club
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Huaxu Touhou Club members
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://huaxu-touhou-club.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,5 +118,5 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
+# deploy:
+#  type: ''
